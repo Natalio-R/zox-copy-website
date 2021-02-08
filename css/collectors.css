@@ -1,0 +1,104 @@
+/* Header */
+.cont-header {
+  width: 100%;
+  min-height: 1270.25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/portadas/portada_collectors.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.cont-header .titles {
+  width: 1380px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cont-header .titles p {
+  width: 100%;
+  font-size: 20px;
+}
+
+.cont-header .titles h2 {
+  width: 100%;
+  font-size: 40px;
+  margin: -22.5px 0px 0px;
+  padding: 10px 0px 0px;
+  line-height: 2;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .descripcion {
+  width: 1180px;
+  padding: 27px;
+}
+
+.descripcion p {
+  font-size: 16px;
+  margin: 0px 0px 16px;
+}
+
+.descripcion span {
+  width: 100%;
+}
+
+.descripcion h2 {
+  font-size: 30px;
+  margin: 0px 0px 27px;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+.cuadros {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cuadros .line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cuadros img {
+  width: 50%;
+}
+
+.cuadros .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 40px;
+  text-align: left;
+}
+
+.cuadros .right h2 {
+  text-align: center;
+  padding: 0px 0px 27px;
+  font-size: 30px;
+}
+
+.cuadros .right p {
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+}

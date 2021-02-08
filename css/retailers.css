@@ -1,0 +1,100 @@
+/* Header */
+.cont-header {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(..//images/portadas/portada-retailers.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 7.9rem;
+}
+
+.cont-header h1 {
+  font-size: 40px;
+  width: 700px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Texto */
+.con-texto {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.con-texto h1 {
+  font-size: 40px;
+}
+
+/* Formulario */
+.con-form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.con-form h2 {
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.con-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.con-form input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(197, 197, 197);
+  font-size: 20px;
+}
+
+.con-form select {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(197, 197, 197);
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.con-form textarea {
+  border: 1px solid rgb(197, 197, 197);
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.con-form .chek {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.con-form .chek input {
+  margin-top: -2%;
+  width: 35px;
+}
+
+.con-form .chek p {
+  margin-left: 1%;
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.con-form button {
+  width: 80px;
+  height: 50px;
+  background: black;
+  color: white;
+  margin-top: 20px;
+}

@@ -1,0 +1,65 @@
+/* Header */
+.container {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/portadas/portada-imperial.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+
+/* Shop-01/05 */
+.filters {
+  width: 1200px;
+  height: 60.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0 0 20px;
+}
+
+.filters .leyenda {
+  font-size: 13.5px;
+  color: #000;
+}
+
+.filters .leyenda a {
+  text-decoration: none;
+  color: #36e5d1;
+}
+
+.filters .leyenda a:hover {
+  color: #dbdbdb;
+}
+
+.filters .filt {
+  width: 185px;
+  height: 36px;
+  border: 1px solid #cacaca;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 40px 5px 9px;
+  color: #363636;
+}
+
+.filters .filt .option {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  color: #363636;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 1rem;
+}

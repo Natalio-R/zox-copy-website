@@ -1,0 +1,265 @@
+/* Header */
+.cont-header {
+  width: 100%;
+  min-height: 526.39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(..//images/portadas/portada-loyalty.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.cont-header h1 {
+  font-size: 56px;
+}
+
+.cont-header h3 {
+  font-size: 56px;
+}
+
+.cont-header button {
+  margin-top: 20px;
+  width: 142px;
+  height: 60px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 23.4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease-out;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.cont-header button:hover {
+  background-color: #36e5d1;
+  border: 3px solid #36e5d1;
+  transition: all 0.2s ease-in;
+}
+
+/* Points */
+.cont-points {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-points h1 {
+  font-size: 20px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cont-points .grid-point {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.cont-points .grid-point .section {
+  width: 420px;
+  height: 370px;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.cont-points .grid-point .section h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.cont-points .grid-point .section p {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 250px;
+}
+
+.cont-points .grid-point .section img {
+  position: absolute;
+  font-size: 20px;
+  margin-top: -120px;
+}
+
+.cont-points .grid-point .s-1 {
+  background: url("../images/loyalty/bn_01.webp");
+  background-size: cover;
+}
+
+.cont-points .grid-point .s-2 {
+  background: url("../images/loyalty/bn_02.webp");
+  background-size: cover;
+}
+
+.cont-points .grid-point .s-3 {
+  background: url("../images/loyalty/bn_03.webp");
+  background-size: cover;
+}
+
+.cont-points .grid-point .s-4 {
+  background: url("../images/loyalty/bn_04.webp");
+  background-size: cover;
+}
+
+.cont-points .grid-point .s-5 {
+  background: url("../images/loyalty/bn_05.webp");
+  background-size: cover;
+}
+
+/* Send Points */
+.cont-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 69%;
+  height: 400px;
+  overflow: hidden;
+  margin: 30px;
+  position: relative;
+  color: white;
+  flex-direction: column;
+}
+
+.cont-send > .bn-extra {
+  position: absolute;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9;
+}
+
+.cont-send h1 {
+  font-size: 35px;
+}
+
+.cont-send p {
+  font-size: 16px;
+  width: 800px;
+  text-align: center;
+}
+
+.cont-send .grid-send {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-send .grid-send .section-se {
+  text-align: center;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  align-items: center;
+}
+
+.cont-send .grid-send .section-se h1 {
+  text-align: center;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+}
+
+.cont-send .grid-send .section-se p {
+  text-align: center;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/* Rewards */
+.cont-rewards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-rewards h1 {
+  font-size: 20px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cont-rewards .grid-rewards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.cont-rewards .grid-rewards .section-r {
+  width: 314px;
+  height: 290px;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  text-shadow: rgb(24, 24, 24) 0.1em 0.1em 0.2em;
+}
+
+.cont-rewards .grid-rewards .section-r h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: -100px;
+}
+
+.cont-rewards .grid-rewards .section-r h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cont-rewards .grid-rewards .section-r h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.cont-rewards .grid-rewards .section-r p {
+  position: absolute;
+  font-size: 14px;
+  width: 200px;
+  margin-top: 200px;
+}
+
+.cont-rewards .grid-rewards .s-1-r {
+  background: url("../images/loyalty/re_01.jpg");
+  background-size: cover;
+}
+
+.cont-rewards .grid-rewards .s-2-r {
+  background: url("../images/loyalty/re_02.jpg");
+  background-size: cover;
+}
+
+.cont-rewards .grid-rewards .s-3-r {
+  background: url("../images/loyalty/re_03.jpg");
+  background-size: cover;
+}
+
+footer {
+  margin-top: 5rem;
+}

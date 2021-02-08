@@ -1,0 +1,184 @@
+/* Header */
+.container {
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/portadas/portada-keychain.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  margin-top: 7.9rem;
+}
+
+.container h1 {
+  font-size: 30px;
+}
+
+/* Step01 */
+.step {
+  font-size: 24px;
+  color: black;
+  padding: 1rem;
+}
+
+.con-stepp {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.con-stepp div {
+  width: 960px;
+  height: 680px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.con-stepp .wide {
+  background: url("../images/keychain/wide.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.con-stepp .narrow {
+  background: url("../images/keychain/narrow.webp");
+  background-size: cover;
+}
+
+.con-stepp div h1 {
+  font-size: 28px;
+  color: white;
+}
+
+/* Step02 */
+.con-step02 {
+  width: 60%;
+  margin-top: 9rem;
+}
+
+.con-step02 h1 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.con-step02 p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 6px;
+}
+
+/* Step03 */
+.con-step03 {
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.con-step03 h1 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.con-step03 p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 6px;
+}
+
+/* Step04 */
+.con-step04 {
+  width: 60%;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.con-step04 h1 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.con-step04 button {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  background: #222222;
+  height: 45px;
+  width: 100px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.con-step04 button:hover {
+  background-color: #424242;
+}
+
+/* Grid*/
+.grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  margin-top: 20px;
+}
+
+.card .img-portada {
+  width: 250px;
+  cursor: pointer;
+}
+
+.s-r {
+  display: flex;
+}
+
+.card h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 29px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.card .star {
+  width: 20px;
+  margin-left: -4px;
+  cursor: pointer;
+}
+
+.card .reviews {
+  margin: -1px 10px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.card .price {
+  display: flex;
+}
+
+.card .price h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card .add-bag {
+  margin-top: 40px;
+  margin-left: 110px;
+  cursor: pointer;
+}
+
+.card .esp {
+  margin-top: 0px;
+}

@@ -1,0 +1,115 @@
+/* Header */
+.container {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/portadas/portada-week.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  margin-top: 7.9rem;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+
+/* Shop-01/05 */
+.filters {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters .leyenda {
+  font-size: 14px;
+  color: black;
+}
+
+.filters .leyenda a {
+  text-decoration: none;
+  color: #36e5d1;
+}
+
+.filters .leyenda a:hover {
+  color: #5baeb6;
+}
+
+.filters .filt {
+  width: 180px;
+  height: 40px;
+  border: 1px solid #cacaca;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  color: #474747;
+}
+
+.grid {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  margin-top: 20px;
+}
+
+.card .img-portada {
+  width: 250px;
+  cursor: pointer;
+}
+
+.s-r {
+  display: flex;
+}
+
+.card h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 29px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.card .star {
+  width: 20px;
+  margin-left: -4px;
+  cursor: pointer;
+}
+
+.card .reviews {
+  margin: -1px 10px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.card .price {
+  display: flex;
+}
+
+.card .price h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card .add-bag {
+  margin-top: 40px;
+  margin-left: 110px;
+  cursor: pointer;
+}
+
+.card .esp {
+  margin-top: 0px;
+}
+
+footer {
+  margin-top: 1rem;
+}

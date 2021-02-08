@@ -1,0 +1,142 @@
+/* Header */
+.cont-header {
+  width: 100%;
+  min-height: 418.19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/portadas/portada-story.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.cont-header h3 {
+  font-size: 40px;
+}
+
+/* Story */
+.con-story {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 351.5px;
+  padding: 40px 0px;
+  font-size: 18px;
+}
+
+.con-story .detalles-read {
+  width: 1200px;
+  height: 21px;
+  font-size: 18px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.detalles-read ul {
+  color: #000;
+  list-style: none;
+  font-size: 14.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detalles-read li span {
+  padding: 0px 0px 0px 5px;
+}
+
+.detalles-read li a {
+  padding: 0px 0px 0px 5px;
+  color: #000;
+  font-size: 14.4px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.detalles-read li {
+  padding: 0px 5px 0px 0px;
+}
+
+.detalles-read li::before {
+  content: "|";
+  color: #2cdcc8;
+  font-weight: 300;
+}
+
+.detalles-read li:first-child:before {
+  content: "";
+}
+
+.text-read {
+  width: 1200px;
+  font-size: 18px;
+  padding: 20px 0px;
+}
+
+.text-read p {
+  font-weight: 400;
+  margin: 0px 0px 18px;
+}
+
+.text-read p a {
+  font-weight: 600px;
+  text-decoration: none;
+  color: #36e5d1;
+}
+
+.text-read p a:hover {
+  color: #36cbe5;
+}
+
+.con-story .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-story .details h1 {
+  font-weight: 700;
+  font-size: 15px;
+  color: #2a2e2e;
+}
+
+.con-story .details h2 {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: #2a2e2e;
+}
+
+.con-story .details .botones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.con-story .details .botones .btn {
+  width: auto;
+  height: 40px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: #2a2e2e;
+  font-size: 15px;
+  margin-left: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.con-story .details .botones .btn:first-child {
+  margin: 0px;
+}
